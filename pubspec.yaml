@@ -1,0 +1,19 @@
+name: alisa_uz
+description: Alisa - o'zbekcha ovozli yordamchi
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  just_audio: ^0.9.40
+  shared_preferences: ^2.2.0
+  speech_to_text: ^7.0.0
+  youtube_explode_dart: ^2.3.0
+
+flutter:
+  uses-material-design: true
